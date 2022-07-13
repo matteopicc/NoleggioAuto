@@ -9,8 +9,8 @@ import it.polito.tdp.noleggio.model.Event.EventType;
 public class Simulatore {
 	
 	// Parametri di ingresso
-	private int NC ;
-	private Duration T_IN = Duration.ofMinutes(10) ;
+	private int NC ; // numero clienti
+	private Duration T_IN = Duration.ofMinutes(10) ; //tempo tra un cliente e l'altro
 	private Duration T_TRAVEL = Duration.ofHours(1) ; // 1, 2, o 3 volte tanto
 	
 	// Valori calcolati in uscita
